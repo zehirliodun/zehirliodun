@@ -1,0 +1,10 @@
+name: Zehirli Odun: Introductory and intermediate programming lessons for humanists
+ url: http://zehirliodun.com 
+permalink: :categories/:title
+ exclude: [deprecated, vendor, Gemfile, Procfile]
+safe: true
+highlighter: rouge
+ markdown: kramdown 
+gems:
+  - jekyll-redirect-from
+
